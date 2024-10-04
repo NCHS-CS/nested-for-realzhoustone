@@ -68,7 +68,7 @@ public class App{
         int actualI;
         for (int i = -9; i < 10; i++){
             actualI = 9 - Math.abs(i);
-            System.out.println(" ".repeat(Math.abs(i))+ (String.valueOf(actualI)).repeat(actualI * 2));
+            System.out.println(" ".repeat(Math.abs(i)) + (String.valueOf(actualI)).repeat(actualI * 2));
         }
     }
 }
