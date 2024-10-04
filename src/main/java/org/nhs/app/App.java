@@ -50,11 +50,7 @@ public class App{
     public static void p3(){
         for (int i = 1; i < 6; i++){
             for (int i2 = 0; i2 < 5; i2++){
-                if (i2 < 5 - i){
-                    System.out.print(".");
-                    continue;
-                }
-                if(i2 > 5 - i){
+                if (i2 < 5 - i || i2 > 5 - i){
                     System.out.print(".");
                     continue;
                 }
